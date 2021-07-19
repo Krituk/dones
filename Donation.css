@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    
+}
+.donation-page {
+    background-image: url("money.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width:100%;
+    background-attachment: fixed;
+
+}
+.donation-page h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    color:gold;
+}
+
+.form heading {
+    font-size: 2px;
+    font-weight: 100;
+    padding-top: 170px;
+    width:55%;
+    color:peru;
+    font-family: sans-serif;
+     
+}
+
+.discription{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    width: 900px;
+    height: 500px;
+    padding: 40px 0;
+    text-align: center;
+    background-color:#00000096;
+    font: weight 850px;
+    
+    color:seashell;
+    margin-top: 70 px;
+    border-radius: 20px;
+    background-image: url(".money.jpg");
+} 
+
+.discription h3{
+    padding: 0 8%;
+    font-family: merienda;
+}
+
+
+.payment {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+
+}
+@media only screen and(max-width:800px){
+    .discription{
+        width:80%;
+    }
+}
